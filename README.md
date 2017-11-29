@@ -20,9 +20,11 @@ public void SomeMethod()
     {
         input = Console.ReadLine();
     }
-    using (var sub = watch.Split("Complex second job"))
+    // Pass a split to another method so it can create more
+    // splits off it for a whole extra level of detail.
+    using (var split = watch.Split("Complex second job"))
     {
-        DoSecondJob(input, sub);
+        DoSecondJob(input, split);
     }
     watch.Stop();
     watch.SaveXml("splitwatch.xml");
