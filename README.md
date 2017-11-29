@@ -32,5 +32,5 @@ public void SomeMethod()
 The XML that is output gets elements backwards because of the way the tree structure is stored internally. But you can
 use the Format tool to turn it into an HTML file with embedded styling and functionality, so you can share it easily or
 check it into source control or whatever. Thanks to the magic of .NET [CoreRT](https://github.com/dotnet/corert) there's
-actually a native `swformat.exe` executable - no runtime required - which you can download from the Releases here.
+actually a native `swformat.exe` executable - no runtime required - which you can download from the [Releases](https://github.com/RendleLabs/SplitWatch/releases) here.
 At some point I'll get round to doing a Linux native as well.
