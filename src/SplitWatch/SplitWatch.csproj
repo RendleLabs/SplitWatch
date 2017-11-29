@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>RendleLabs.Diagnostics.SplitWatch</AssemblyName>
+    <RootNamespace>RendleLabs.Diagnostics</RootNamespace>
+    <InternalsVisibleTo>../../test/SplitWatch.UnitTests/SplitWatch.UnitTests.csproj</InternalsVisibleTo>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>RendleLabs</Authors>
+    <Description>A hierarchical alternative to Stopwatch.</Description>
+    <Copyright>2017 RendleLabs Ltd</Copyright>
+    <PackageLicenseUrl>https://github.com/RendleLabs/SplitWatch/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/RendleLabs/SplitWatch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RendleLabs/SplitWatch</RepositoryUrl>
+    <PackageTags>diagnostics;metrics</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />
+  </ItemGroup>
+</Project>

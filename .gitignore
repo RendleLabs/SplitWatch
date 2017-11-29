@@ -286,3 +286,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+test/SplitWatch.TestApp/time.xml
+test/SplitWatch.TestApp/time.html
